@@ -1,0 +1,202 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+	.phone{
+		display: none;
+	}
+	.logo{
+		margin:auto;
+	}
+	#input{
+		height:120vh;
+	}
+	.input-main{
+		flex-direction: column;
+	}
+	.input-right{
+		margin-top:0px;
+		text-align: center;
+	}
+	.input-right h2{
+		margin:0px 0px;
+	}
+	.input-right h4{
+		margin: 10px 0px;
+	}
+	.input-left{
+		margin-top: 10px;
+		width:90%;
+		margin-left: 5%;
+		margin-bottom: 30px;
+	}
+	.input-left p{
+		margin-left:15px;
+	}
+	.input-left input{
+		margin-left: 15px;
+	}
+	.captcha{
+		flex-direction: column;
+	}
+	.captcha input{
+		width:90%;
+		padding: 6px 0px;
+	
+	}
+	.captcha-value{
+		width:90%;
+		margin-left:-5px;
+	}
+	.video-mid{
+		flex-direction: column;
+	}
+	#services{
+		padding: 20px 0px;
+	}
+	.services-mid{
+		flex-direction: column;
+		margin-top: 10px;
+	}
+	#video{
+		padding:10px 0px;
+	}
+
+	#services h2{
+		padding:20px 0px;
+	}
+	.quality-mid{
+		gap:0%%;
+	}
+
+	.qualityitems{
+		margin: 1.5%;
+		flex-basis: 46%;
+	}
+	.achievmentitems{
+		flex-basis: 45%;
+	}
+	.customerimage{
+		position: static;
+		margin: auto;
+		margin-top:30px;
+	}
+	.customer-mid>p{
+    padding:0px;
+	margin:20px 10px;
+	text-align:justify;
+	color: white;
+	font-size: 18px;
+}
+.clientsitems{
+	flex-basis: 30%;
+	margin: 1.5%;
+}
+.clients-mid{
+	gap:0%;
+}
+.address-mid{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.truck{
+	display: none;
+}
+.footer-mid{
+	margin: 0px 20px;
+}
+#footer p{
+	margin-top: 0px;
+	margin-left:20px;
+	margin-right:20px;
+}
+.contactphone{
+	display: block;
+	bottom:0px;
+	display: flex;
+	left:50%;
+	right: 50%;
+}
+
+
+}
+@media only screen and (min-width:575px) and (max-width:920px){
+	.phone{
+		display: block;
+	}
+	.input-main{
+		flex-direction: column;
+	}
+	.input-right{
+		text-align: center;
+	}
+	.input-right h2{
+		margin:0px 0px;
+	}
+	.input-right h4{
+		margin:10px 0px;
+	}
+    .input-left{
+		margin-top:10px;
+		width:80%;
+		margin-left: 10%;
+		margin-bottom: 30px;
+	}
+	.input-left input{
+		margin-left: 30px;
+	}
+	.input-left p{
+		margin-left: 30px;
+	}
+	.captcha{
+		flex-direction: column;
+	}
+	.captcha input{
+	      padding:8px 0px;
+	}
+	.captcha-value{
+		width: 90%;
+		margin-left: -10px;
+	}
+	.videoitems{
+		flex-basis:47%;
+	}
+	#video{
+		padding:10px 0px;
+	}
+		.qualityitems{
+	    margin: 1.5%;
+		flex-basis: 30%;
+	}
+	.quality-mid{
+	   gap:0%;
+	}
+	.achievmentitems{
+		flex-basis: 30%;
+	}
+	.customer-mid{
+		max-width: 630px;
+	}
+	.customer-mid>p{
+	padding: 100px;
+	margin-left:50px;
+	color: white;
+	font-size: 18px;
+}
+.clientsitems{
+	flex-basis: 30%;
+	margin:1.5%;
+	
+}
+.clients-mid{
+	gap:0%;
+}
+.truck{
+	display: none;
+}
+.footer-mid{
+	margin: 0px 20px;
+}
+#footer p{
+	margin-left:20px;
+	margin-right:20px;
+}
+
+}
